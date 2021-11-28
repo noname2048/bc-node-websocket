@@ -41,7 +41,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/preset-env", "virtual:513b3344dedba739315d47221fa3cd0bd694014d31106a3ad57aa3137ac62f8465fe31adf6f918660e3c03c5de5ec614e6933778a5dafb829ddf0043a9f97838#npm:7.16.4"],
             ["express", "npm:4.17.1"],
             ["nodemon", "npm:2.0.15"],
-            ["pug", "npm:3.0.2"]
+            ["pug", "npm:3.0.2"],
+            ["ws", "virtual:513b3344dedba739315d47221fa3cd0bd694014d31106a3ad57aa3137ac62f8465fe31adf6f918660e3c03c5de5ec614e6933778a5dafb829ddf0043a9f97838#npm:8.3.0"]
           ],
           "linkType": "SOFT",
         }]
@@ -2572,7 +2573,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/preset-env", "virtual:513b3344dedba739315d47221fa3cd0bd694014d31106a3ad57aa3137ac62f8465fe31adf6f918660e3c03c5de5ec614e6933778a5dafb829ddf0043a9f97838#npm:7.16.4"],
             ["express", "npm:4.17.1"],
             ["nodemon", "npm:2.0.15"],
-            ["pug", "npm:3.0.2"]
+            ["pug", "npm:3.0.2"],
+            ["ws", "virtual:513b3344dedba739315d47221fa3cd0bd694014d31106a3ad57aa3137ac62f8465fe31adf6f918660e3c03c5de5ec614e6933778a5dafb829ddf0043a9f97838#npm:8.3.0"]
           ],
           "linkType": "SOFT",
         }]
@@ -6086,6 +6088,32 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["is-typedarray", "npm:1.0.0"],
             ["signal-exit", "npm:3.0.6"],
             ["typedarray-to-buffer", "npm:3.1.5"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["ws", [
+        ["npm:8.3.0", {
+          "packageLocation": "./.yarn/cache/ws-npm-8.3.0-e519e40e8d-71f6919e3c.zip/node_modules/ws/",
+          "packageDependencies": [
+            ["ws", "npm:8.3.0"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:513b3344dedba739315d47221fa3cd0bd694014d31106a3ad57aa3137ac62f8465fe31adf6f918660e3c03c5de5ec614e6933778a5dafb829ddf0043a9f97838#npm:8.3.0", {
+          "packageLocation": "./.yarn/__virtual__/ws-virtual-feaab96740/0/cache/ws-npm-8.3.0-e519e40e8d-71f6919e3c.zip/node_modules/ws/",
+          "packageDependencies": [
+            ["ws", "virtual:513b3344dedba739315d47221fa3cd0bd694014d31106a3ad57aa3137ac62f8465fe31adf6f918660e3c03c5de5ec614e6933778a5dafb829ddf0043a9f97838#npm:8.3.0"],
+            ["@types/bufferutil", null],
+            ["@types/utf-8-validate", null],
+            ["bufferutil", null],
+            ["utf-8-validate", null]
+          ],
+          "packagePeers": [
+            "@types/bufferutil",
+            "@types/utf-8-validate",
+            "bufferutil",
+            "utf-8-validate"
           ],
           "linkType": "HARD",
         }]
